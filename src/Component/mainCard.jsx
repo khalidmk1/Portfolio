@@ -7,7 +7,7 @@ const MainComponent = () => {
         {
             link: 'https://github.com/khalidmk1/beldilook_v_web.git',
             git_link: 'https://github.com/khalidmk1/beldilook_v_web.git',
-            image: './project_img/beldi.look.png',
+            image: './project_img/Capture.jpg',
             title: 'beldilook',
             soutitle: 'Boostrap, Laravel, Css, Jquery',
             description: 'This platform offers a straightforward approach to kickstarting your sales. Create an account, make a one-time payment to activate your seller status, and start selling by adding products. Include up to five photos and a detailed description. Have full control over pricing, receive prompt payment upon sales, and benefit from our delivery service for a seamless online sales experience.',

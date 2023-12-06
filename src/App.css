@@ -82,6 +82,7 @@ h1 {
 }
 
 .project_card .card-img-top {
+  height: 217px;
   overflow: hidden;
   border: 10px;
   transition: transform 0.3s ease-in-out; /* Transition only the transform property on the image */
