@@ -1,38 +1,151 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lilita+One&family=Montserrat:wght@600;700&family=Poppins:wght@800&family=Rubik:wght@500&family=Source+Code+Pro:wght@700&display=swap');
+
+* {
+  font-family: 'Lilita One', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(190deg, rgb(0 0 0 / 38%) 0%, rgb(100 92 99 / 79%) 93.75%);
+}
+
+h1 {
+  font-weight: 400;
+}
+
+.text_font {
+  font-weight: 100;
+  color: black;
+}
+
+
+
+
+
+.text-profile {
+  font-weight: 100;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-Contact {
+  outline: none;
+  border: none;
+  width: 150px;
+  height: 50px;
+  color: #000;
+  font-size: 1.3rem;
+  background-color: #ff004f;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 100;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-Contact:hover {
+  color: aliceblue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.tools span {
+  display: inline-flex;
+  background-color: black;
   color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.fa-face-smile{
+  color: #3e5078 ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fa-face-smile-wink{
+  color: #3e5078 ;
 }
+.img_card{
+  background-color: #484545;
+}
+
+.github_icon{
+  font-size: 25px;
+  z-index: 1000;
+  color: #000;
+}
+
+
+.github_icon:hover{
+  color: #3e5078 ;
+}
+
+.project_card {
+  background: none;
+  border: none;
+}
+
+.project_card .card-img-top {
+  overflow: hidden;
+  border: 10px;
+  transition: transform 0.3s ease-in-out; /* Transition only the transform property on the image */
+}
+
+.project_card:hover .card-img-top {
+  transform: scale(1.1); /* Scale up the image on hover */
+}
+
+.soutitle{
+  color: #253353;
+}
+
+.text-description{
+  line-height: 17px;
+}
+
+.navbar-brand  i{
+  font-size: 30px;
+}
+
+.navbar-brand  i:hover{
+  color: #3e5078 ;
+}
+.contact_conatine a{
+  text-decoration: none;
+  color: #253353;
+}
+.contact_conatine a:hover{
+  color: #3e5078 ;
+}
+
+.btn_cv a{
+  font-family:  'Lilita One', sans-serif ;
+  color: #3e5078;
+  border-color: #3e5078;
+  text-decoration: none;
+}
+
+.btn_cv a:hover{
+  border-color: #3e5078;
+}
+
+#btn-back-to-top {
+  border-radius: 100%;
+  border-color: #253353;
+  background-color: #3e5078;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  }
+
+/* Add this CSS to your styles */
+.tab-pane {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  height: 0;
+  overflow: hidden;
+}
+
+.tab-pane.show {
+  opacity: 1;
+  height: auto;
+}
+
+
