@@ -33,7 +33,12 @@ const TabsContainer = () => {
             <p className="font-italic  mb-2 text-light  text-center"><TextAnimation /></p>
             <p className='text-profile'>
               junior full stack development with an analytical mind and an effective approach to problems. I provide companies with my skills and my thirst for learning and development.</p>
-            <p className="text-center"><button className='btn-Contact'>Contact Me</button></p>
+            <p className="d-flex justify-content-center p-0">
+              <Tab id={3} label="Contact Me" activeTab={activeTab} changeTab={changeTab} customClass="custom-tab">
+              Contact Me
+              </Tab>
+          
+            </p>
           </div>
 
 

@@ -1,10 +1,11 @@
 // File: Tab.js
 import React from 'react';
 
-const Tab = ({ id, iconClass, label, activeTab, changeTab }) => {
+const Tab = ({ id, iconClass, label, activeTab, changeTab, customClass }) => {
   return (
     <a
-      className={`nav-link text-light mb-3 p-3 shadow  ${activeTab === id ? 'active' : ''}`}
+      className={`nav-link text-light mb-3 p-3 shadow  ${activeTab === id ? 'active' : ''} ${customClass}`}
+      
       onClick={() => changeTab(id)}
       role="tab"
     >

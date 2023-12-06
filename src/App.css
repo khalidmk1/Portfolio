@@ -27,10 +27,13 @@ h1 {
   text-align: center;
 }
 
-.btn-Contact {
+.custom-tab {
+  cursor: pointer;
+  padding: 0 !important; 
+  text-align: center;
   outline: none;
   border: none;
-  width: 150px;
+  width: 200px;
   height: 50px;
   color: #000;
   font-size: 1.3rem;
@@ -40,8 +43,14 @@ h1 {
   font-weight: 100;
 }
 
-.btn-Contact:hover {
-  color: aliceblue;
+.custom-tab span{
+  position: relative;
+    top: 9px;
+    left: -8px;
+}
+
+.custom-tab span:hover {
+  color: rgb(0, 0, 0);
 }
 
 .tools span {
