@@ -20,7 +20,7 @@ const TabsContainer = () => {
       <div className="row ">
         <div className="col-md-3 position-fix">
           <div className="nav flex-column fix-nav nav-pills nav-pills-custom " id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <Tab id={0} iconClass="fa-house"  label="Home" activeTab={activeTab} changeTab={changeTab} />
+            <Tab id={0} iconClass="fa-house" label="Home" activeTab={activeTab} changeTab={changeTab} />
             <Tab id={1} iconClass="fa-address-card" label="About" activeTab={activeTab} changeTab={changeTab} />
             <Tab id={2} iconClass="fa fa-diagram-project" label="Projets" activeTab={activeTab} changeTab={changeTab} />
             <Tab id={3} iconClass="fa fa-envelope" label="Contact Me" activeTab={activeTab} changeTab={changeTab} />
@@ -35,14 +35,14 @@ const TabsContainer = () => {
               junior full stack development with an analytical mind and an effective approach to problems. I provide companies with my skills and my thirst for learning and development.</p>
             <p className="d-flex justify-content-center p-0">
               <Tab id={3} label="Contact Me" activeTab={activeTab} changeTab={changeTab} customClass="custom-tab">
-              Contact Me
+                Contact Me
               </Tab>
-          
+
             </p>
           </div>
 
 
-          <div className={`tab-pane fade shadow rounded text-light ${activeTab === 1 ? 'show active' : ''} p-5`} id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"  tabindex="0">
+          <div className={`tab-pane fade shadow rounded text-light ${activeTab === 1 ? 'show active' : ''} p-5`} id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
             <h4 className="font-italic mb-4 text-center">About</h4>
             <div className="font-italic  mb-2 text-light">
               <div className="row">
@@ -51,7 +51,7 @@ const TabsContainer = () => {
                   Outside of work, I have a passion for collecting figures, enjoy watching shows, delve into UI/UX designs, and maintain a healthy workout routine.
                   Feel free to reach out if you're interested in exploring collaboration possibilities. Looking forward to connecting!</div>
                 <div className="col col-lg-6 col-xl-6 col-md-12 col-sm-12">
-                  <Tags/>
+                  <Tags />
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ const TabsContainer = () => {
           </div>
         </div>
       </div>
-      
+
     </div>
 
   );
